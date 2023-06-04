@@ -55,3 +55,5 @@ def ask_for_pdf():
 
 
 pdf_file = ask_for_pdf()
+synthesize_text_file(pdf_text_to_file(pdf_file))
+
